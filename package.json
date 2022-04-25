@@ -1,0 +1,12 @@
+{
+  "name": "corsproxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cors-anywhere": "^0.4.4"
+  },
+  "scripts": {
+    "prod": "node index.js"
+  }
+}
