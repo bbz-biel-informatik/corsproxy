@@ -8,7 +8,7 @@ cors_proxy.createServer({
     originWhitelist: [], // Allow all origins
     // requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2'],
-    setHeaders: {'Referer': 'https://cors.bbz.cloud'}
+    setHeaders: {'Referer': 'https://cors.bbz.cloud', 'Origin': 'https://cors.bbz.cloud'}
 }).listen(port, host, function() {
     console.log('Running CORS Anywhere on ' + host + ':' + port);
 });
